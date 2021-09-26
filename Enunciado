@@ -1,0 +1,71 @@
+El siguiente código ha perdido algunas de sus líneas.  Su trabajo es completar las líneas de código que faltan, las cuales están marcadas claramente con textos que describen lo que la línea debe hacer. Todo el programa realiza las siguientes acciones:
+
+Se genera un entero entre 5 y 10; luego se construye un objeto de la clase vector (esta clase ya existe) tal como la definida en el curso.  El tamaño del vector es el número generado inicialmente. Luego, se llena el vector con números enteros entre 1 y 9 generados aleatoriamente.
+
+Posteriormente se realiza una copia del vector generado.
+
+Se modifica la copia del vector, de tal manera que en la primera posición del vector copia quede el resultado de sumar todos los datos del vector desde la primera posición hasta la última. En la segunda posición del vector, quede la suma de todos los datos desde la segunda posición hasta la última. En la tercera posición la suma de todos los datos desde la tercera posición hasta la última, y así sucesivamente.
+
+Por ejemplo:
+
+VECTOR ORIGINAL
+
+4
+
+1
+
+3
+
+4
+
+5
+
+La copia del vector se puede ver así:
+
+4
+
+1
+
+3
+
+4
+
+5
+
+ 
+
+La primera posición de la copia del vector debe de contener la suma de los elementos del vector desde la primera posición hasta el final, así: 4 + 1 + 3 + 4 + 5 = 17
+
+En este punto el vector queda así:
+
+17
+
+1
+
+3
+
+4
+
+5
+
+ 
+
+La segunda posición de la copia del vector debe de contener la suma de los elementos del vector desde la segunda posición hasta el final, así: 1 + 3 + 4 + 5 = 13
+
+En este punto el vector queda así:  
+
+17
+
+13
+
+3
+
+4
+
+5
+
+ 
+
+Y así sucesivamente, resultando el siguiente vector: 17, 13, 12, 9, 5,
+
+Su trabajo es completar las líneas que faltan, son de color verde y empiezan por #.""".  Encontrará indicaciones valiosas color azul en cada línea.
